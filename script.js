@@ -41,7 +41,7 @@ function renderButtons() {
 }
 
 
-$("button").on("click", function() {
+$(document).on('click', 'button', function() {
     // Keyword refers to the button that was clicked
     var showTitle = $(this).attr("data-title");
 
